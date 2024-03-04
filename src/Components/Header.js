@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { logos, socialMediaUrl } from "../Details";
+import DownloadButton from "./Download";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -76,13 +77,14 @@ function Header() {
               </svg>
             </a>
           </li> */}
-          <li>
+          {/* <li>
           <a href="./src/assets/Personal/NC96691129497994.Car_ETicket.pdf" download>
             <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               Download Resume
             </button>
           </a>
-        </li>
+        </li> */}
+        <DownloadButton/>
           <li>
             <a href={linkdein} target="_blank" rel="noreferrer noopener">
               <svg
