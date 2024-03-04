@@ -77,7 +77,7 @@ function Header() {
             </a>
           </li> */}
           <li>
-          <a href="./src/assets/Resume/NC96691129497994.Car_ETicket.pdf" download>
+          <a href="./src/assets/Personal/NC96691129497994.Car_ETicket.pdf" download>
             <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               Download Resume
             </button>
